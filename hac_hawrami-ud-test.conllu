@@ -148,10 +148,10 @@
 # text_en = It was near the end of summer, [or] spring.
 # text_fa = نزدیک پایان تابستان، یا بهار، بود.
 1	ginmê	kewt	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=fall.prs.ind-1pl:S|SourceUnit=ZB.7
-2	dewrû	dewr	DET	_	_	3	det	_	Gloss=around-ez.gen|SourceUnit=ZB.7
+2	dewrû	dewr	ADP	_	_	3	case	_	Gloss=around-ez.gen|SourceUnit=ZB.7
 3	haminî	hamin	NOUN	_	Gender=Masc	1	dep	_	Gloss=summer.m-sg.obl|SourceUnit=ZB.7
 4	weharî	wehar	NOUN	_	Gender=Masc	1	dep	_	Gloss=spring.m-sg.obl|SourceUnit=ZB.7
-5	temamîyo	temamya	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	Gloss=finish.prs-3sg:S|SourceUnit=ZB.7|SpaceAfter=No
+5	temamîyo	temamya	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	Gloss=finish.prs-3sg:S|SourceUnit=ZB.7|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	Gloss=_|SourceUnit=ZB.7
 
 # sent_id = hwr-rec-zb-008
@@ -175,7 +175,7 @@
 5	jenêweş	jenî	NOUN	_	Definite=Ind|Gender=Fem	1	dep	_	Gloss=woman.f-indf~3sg:NC|SourceUnit=ZB.8
 6	bo	bî	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	Gloss=be.prs.ind-3sg:S|SourceUnit=ZB.8|SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	Gloss=_|SourceUnit=ZB.8
-8	wêşû	wê	PRON	_	_	1	dep	_	Gloss=reflx~3sg:PSR~and|SourceUnit=ZB.8
+8	wêşû	wê	PRON	_	PronType=Prs|Reflex=Yes	1	dep	_	Gloss=reflx~3sg:PSR~and|SourceUnit=ZB.8
 9	kinaçê	kinaçê	NOUN	_	Gender=Fem	1	obl	_	Gloss=girl.f|SourceUnit=ZB.8
 10	ezemêç	ezem	ADJ	_	Definite=Ind	1	dep	_	Gloss=adolescent-f-indf~add|SourceUnit=ZB.8
 11	laşo	la	ADP	_	_	9	case	_	Gloss=with~3sg:R~post|SourceUnit=ZB.8
@@ -269,7 +269,7 @@
 2	bo	bî	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=be.prs.ind-3sg:S|SourceUnit=ZB.12|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	Gloss=_|SourceUnit=ZB.12
 4	ʕemriş	ʕemr	NOUN	_	Gender=Masc	2	dep	_	Gloss=age.m~3sg:PSR|SourceUnit=ZB.12
-5	dewrû	dewr	DET	_	_	8	det	_	Gloss=around-ez.gen|SourceUnit=ZB.12
+5	dewrû	dewr	ADP	_	_	8	case	_	Gloss=around-ez.gen|SourceUnit=ZB.12
 6	ṣewû	ṣew	NUM	_	_	8	nummod	_	Gloss=hundred~and|SourceUnit=ZB.12
 7	wîs	wîs	NUM	_	_	8	nummod	_	Gloss=twenty|SourceUnit=ZB.12
 8	saɫane	saɫe	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	Gloss=year.f-pl.obl~post|SourceUnit=ZB.12
@@ -279,7 +279,7 @@
 12	sî	sî	NUM	_	_	13	nummod	_	Gloss=thirty|SourceUnit=ZB.12
 13	saɫê	saɫe	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	2	obl	_	Gloss=year.f-pl.dir|SourceUnit=ZB.12
 14	pa	a	ADP	_	PronType=Dem	13	case	_	Gloss=at~dem.dist|SourceUnit=ZB.12
-15	dewrne	dewr	DET	_	_	13	det	_	Gloss=around~post|SourceUnit=ZB.12|SpaceAfter=No
+15	dewrne	dewr	ADP	_	_	13	case	_	Gloss=around~post|SourceUnit=ZB.12|SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	Gloss=_|SourceUnit=ZB.12
 
 # sent_id = hwr-rec-zb-013
@@ -363,7 +363,7 @@
 # text = ewêç maço, “waranû çêşî?”
 # text_en = She said, “What rain?!”
 # text_fa = او گفت: «چه بارانی؟!»
-1	ewêç	ewê	PRON	_	_	2	nsubj	_	Gloss=3sg.f.dir~add|SourceUnit=ZB.16
+1	ewêç	ewê	PRON	_	PronType=Prs	2	nsubj	_	Gloss=3sg.f.dir~add|SourceUnit=ZB.16
 2	maço	wat	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=ind-say.prs-3sg:A|SourceUnit=ZB.16|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	Gloss=_|SourceUnit=ZB.16
 4	“	“	PUNCT	_	_	2	punct	_	Gloss=_|SourceUnit=ZB.16|SpaceAfter=No
@@ -398,7 +398,7 @@
 10	sîyaw	sîyaw	ADJ	_	Gender=Masc	9	amod	_	Gloss=black.m|SourceUnit=ZB.17
 11	pise	pêse	ADV	_	_	1	advmod	_	Gloss=like|SourceUnit=ZB.17
 12	çetrê	çetre	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	Gloss=umbrella-f.sg.obl|SourceUnit=ZB.17
-13	kewt	kewt	VERB	_	Tense=Past|VerbForm=Fin	1	parataxis	_	Gloss=fall.pst-3sg.m:S|SourceUnit=ZB.17
+13	kewt	kewt	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	Gloss=fall.pst-3sg.m:S|SourceUnit=ZB.17
 14	asman	asman	NOUN	_	_	1	dep	_	Gloss=sky.m.dir|SourceUnit=ZB.17|SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	Gloss=_|SourceUnit=ZB.17|SpaceAfter=No
 16	”	”	PUNCT	_	_	1	punct	_	Gloss=_|SourceUnit=ZB.17
@@ -419,7 +419,7 @@
 # text_fa = در طول شب مدتی غلت زدند و این‌سو و آن‌سو شدند.
 1	şewê	şewe	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	Gloss=night-f.sg.obl|SourceUnit=ZB.18
 2	firê	fire	ADV	_	Definite=Ind	3	dep	_	Gloss=a_lot-indf|SourceUnit=ZB.18
-3	bijyawe	bijya	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=toss.prs-3pl:S~compl|SourceUnit=ZB.18|SpaceAfter=No
+3	bijyawe	bijya	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=toss.prs-3pl:S~compl|SourceUnit=ZB.18|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	Gloss=_|SourceUnit=ZB.18
 
 # sent_id = hwr-rec-zb-019
@@ -469,7 +469,7 @@
 5	aman	ama	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	2	conj	_	Gloss=come.pst.ptcp.m~cop.3sg.m:S|SourceUnit=ZB.20
 6	çawre	çawre	NOUN	_	Gender=Fem	2	dep	_	Gloss=tent.f|SourceUnit=ZB.20
 7	peře	peř	ADJ	_	_	6	amod	_	Gloss=full-f|SourceUnit=ZB.20
-8	bîye	bî	AUX	_	Tense=Past|VerbForm=Fin	2	aux	_	Gloss=be.pst-3sg.f:S|SourceUnit=ZB.20
+8	bîye	bî	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	aux	_	Gloss=be.pst-3sg.f:S|SourceUnit=ZB.20
 9	awî	awî	NOUN	_	Gender=Fem	2	dep	_	Gloss=water.f|SourceUnit=ZB.20|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	Gloss=_|SourceUnit=ZB.20
 
@@ -489,7 +489,7 @@
 # text_fa = سیل حیوانات را با خود برد.
 1	heywane	heywan	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	dep	_	Gloss=animal.f.sg.dir|SourceUnit=ZB.21
 2	awê	awî	NOUN	_	Gender=Fem	3	dep	_	Gloss=water.f-sg.obl|SourceUnit=ZB.21
-3	berde	berd	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	Gloss=take.pst-3sg.f:O|SourceUnit=ZB.21|SpaceAfter=No
+3	berde	berd	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Gloss=take.pst-3sg.f:O|SourceUnit=ZB.21|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	Gloss=_|SourceUnit=ZB.21
 
 # sent_id = hwr-rec-zb-022
@@ -507,10 +507,10 @@
 # text_en = Down there, [the flood] took some [animals and] cast [them] into the river.
 # text_fa = آن پایین، سیل بعضی از حیوانات را برد و به رودخانه انداخت.
 1	epare	pare	ADP	_	_	3	dep	_	Gloss=in~down_there|SourceUnit=ZB.22
-2	beʕzêş	beʕzê	DET	_	_	3	dep	_	Gloss=some~3sg:PSR|SourceUnit=ZB.22
-3	piřnaşre	piřna	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	Gloss=break_off.pst~3sg:A~povb|SourceUnit=ZB.22
-4	berd	berd	VERB	_	Tense=Past|VerbForm=Fin	3	conj	_	Gloss=take.pst-3sg.m:O|SourceUnit=ZB.22
-5	wisiş	wist	VERB	_	Tense=Past|VerbForm=Fin	3	conj	_	Gloss=throw.pst-3sg.m:O~3sg:A|SourceUnit=ZB.22
+2	beʕzêş	beʕzê	DET	_	PronType=Ind	3	dep	_	Gloss=some~3sg:PSR|SourceUnit=ZB.22
+3	piřnaşre	piřna	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Gloss=break_off.pst~3sg:A~povb|SourceUnit=ZB.22
+4	berd	berd	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	Gloss=take.pst-3sg.m:O|SourceUnit=ZB.22
+5	wisiş	wist	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	Gloss=throw.pst-3sg.m:O~3sg:A|SourceUnit=ZB.22
 6	řoxane	řoxane	NOUN	_	_	3	dep	_	Gloss=river|SourceUnit=ZB.22|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	Gloss=_|SourceUnit=ZB.22
 
@@ -528,7 +528,7 @@
 # text = beʕzêçiş meno milwa xizana meřekê.
 # text_en = Some of [the animals] which had survived went [and] squeezed themselves into the cave.
 # text_fa = بعضی [از حیواناتی] که زنده مانده بودند رفتند و خودشان را در غار جا دادند.
-1	beʕzêçiş	beʕzê	DET	_	_	2	dep	_	Gloss=some~add~3sg:PSR|SourceUnit=ZB.23
+1	beʕzêçiş	beʕzê	DET	_	PronType=Ind	2	dep	_	Gloss=some~add~3sg:PSR|SourceUnit=ZB.23
 2	meno	menn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=remain.prs.ind-3sg:S|SourceUnit=ZB.23
 3	milwa	luwa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Gloss=ind-go.prs-3pl:S|SourceUnit=ZB.23
 4	xizana	xiza	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Gloss=creep.prs.ind-3pl:S|SourceUnit=ZB.23
@@ -604,7 +604,7 @@
 5	řoj	řoj	NOUN	_	Gender=Masc	2	dep	_	Gloss=daylight.m|SourceUnit=ZB.26
 6	bowe	ama	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Gloss=become.prs.ind-3sg:S~compl|SourceUnit=ZB.26
 7	berzepey	berzepey	ADJ	_	_	5	amod	_	Gloss=standing|SourceUnit=ZB.26
-8	miđrarê	miđra	VERB	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Gloss=stop.prs-3pl:S~povb|SourceUnit=ZB.26|SpaceAfter=No
+8	miđrarê	miđra	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Gloss=stop.prs-3pl:S~povb|SourceUnit=ZB.26|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	Gloss=_|SourceUnit=ZB.26
 
 # sent_id = hwr-rec-zb-027
@@ -674,17 +674,17 @@
 6	,	,	PUNCT	_	_	9	punct	_	Gloss=_|SourceUnit=ZB.29
 7	ne	ne	CCONJ	_	_	8	cc	_	Gloss=neither|SourceUnit=ZB.29
 8	nan	nan	NOUN	_	Gender=Masc	9	dep	_	Gloss=bread.m|SourceUnit=ZB.29
-9	hen	hen	VERB	_	VerbForm=Fin	0	root	_	Gloss=exist-3sg.m:S|SourceUnit=ZB.29|SpaceAfter=No
+9	hen	hen	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	Gloss=exist-3sg.m:S|SourceUnit=ZB.29|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	Gloss=_|SourceUnit=ZB.29
 11	ne	ne	CCONJ	_	_	12	cc	_	Gloss=nor|SourceUnit=ZB.29
 12	çay	çay	NOUN	_	Gender=Masc	9	dep	_	Gloss=tea.m|SourceUnit=ZB.29
-13	hen	hen	VERB	_	VerbForm=Fin	9	conj	_	Gloss=exist-3sg.m:S|SourceUnit=ZB.29|SpaceAfter=No
+13	hen	hen	VERB	_	Mood=Ind|VerbForm=Fin	9	conj	_	Gloss=exist-3sg.m:S|SourceUnit=ZB.29|SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	Gloss=_|SourceUnit=ZB.29
 15	ne	ne	CCONJ	_	_	16	cc	_	Gloss=nor|SourceUnit=ZB.29
 16	çîw	çîw	NOUN	_	Gender=Masc	9	dep	_	Gloss=thing.m|SourceUnit=ZB.29
-17	hen	hen	VERB	_	VerbForm=Fin	9	conj	_	Gloss=exist-3sg.m:S|SourceUnit=ZB.29|SpaceAfter=No
+17	hen	hen	VERB	_	Mood=Ind|VerbForm=Fin	9	conj	_	Gloss=exist-3sg.m:S|SourceUnit=ZB.29|SpaceAfter=No
 18	,	,	PUNCT	_	_	9	punct	_	Gloss=_|SourceUnit=ZB.29
-19	ħîç	ħîç	PRON	_	_	9	dep	_	Gloss=nothing|SourceUnit=ZB.29|SpaceAfter=No
+19	ħîç	ħîç	PRON	_	PronType=Neg	9	dep	_	Gloss=nothing|SourceUnit=ZB.29|SpaceAfter=No
 20	.	.	PUNCT	_	_	9	punct	_	Gloss=_|SourceUnit=ZB.29
 
 # sent_id = hwr-rec-zb-030
@@ -724,7 +724,7 @@
 2	miđa	da	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=ind-give.prs-3pl:A|SourceUnit=ZB.31
 3	wer	wer	ADV	_	_	2	advmod	_	Gloss=out|SourceUnit=ZB.31|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	Gloss=_|SourceUnit=ZB.31
-5	girđ	girđ	DET	_	_	2	dep	_	Gloss=all|SourceUnit=ZB.31
+5	girđ	girđ	DET	_	PronType=Tot	2	dep	_	Gloss=all|SourceUnit=ZB.31
 6	wizaş	wist	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	Gloss=throw.prs.ind-3pl:A~3sg:O|SourceUnit=ZB.31
 7	weɫê	weɫê	ADP	_	_	2	dep	_	Gloss=front|SourceUnit=ZB.31|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	Gloss=_|SourceUnit=ZB.31
@@ -853,7 +853,7 @@
 # text_en = I have heard this tale from -- it is the Sheikh's words -- Sheikh Aladin.
 # text_fa = من این روایت را شنیده‌ام؛ این سخن شیخ است، شیخ علاءالدین.
 1	îne	îne	DET	_	PronType=Dem	4	dep	_	Gloss=dem.prox.m.3sg.dir|SourceUnit=ZB.37
-2	min	min	PRON	_	_	4	dep	_	Gloss=1sg|SourceUnit=ZB.37
+2	min	min	PRON	_	PronType=Prs	4	dep	_	Gloss=1sg|SourceUnit=ZB.37
 3	înem	îne	DET	_	PronType=Dem	4	dep	_	Gloss=dem.prox.m.3sg.dir~1sg:A|SourceUnit=ZB.37
 4	jinîyen	jinîye	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	Gloss=hear.pst.ptcp.m~cop.3sg.m:O|SourceUnit=ZB.37
 5	law	la	ADP	_	_	4	dep	_	Gloss=at_the_place_of-ez.gen|SourceUnit=ZB.37|SpaceAfter=No
@@ -932,7 +932,7 @@
 8	zilterû	zil	ADJ	_	Degree=Cmp	1	dep	_	Gloss=big-cmpr~and|SourceUnit=ZB.40
 9	ʕalter	ʕal	ADJ	_	Degree=Cmp	1	xcomp	_	Gloss=good-cmpr|SourceUnit=ZB.40
 10	bo	bî	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	Gloss=be.prs.ind-3sg:S|SourceUnit=ZB.40
-11	ađî	ađ	PRON	_	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	Gloss=3sg.obl.m|SourceUnit=ZB.40
+11	ađî	ađ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	1	obl	_	Gloss=3sg.obl.m|SourceUnit=ZB.40
 12	bera	berd	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	Gloss=take.prs.ind-3pl:A|SourceUnit=ZB.40|SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	Gloss=_|SourceUnit=ZB.40
 
@@ -950,7 +950,7 @@
 # text = ewî minya qiřoɫû darêwe.
 # text_en = They left him (i.e., the other one) in the hole in the tree.
 # text_fa = پسر دیگر را در حفرهٔ درخت گذاشتند.
-1	ewî	ew	PRON	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	Gloss=3sg.obl.m|SourceUnit=ZB.41
+1	ewî	ew	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	2	obl	_	Gloss=3sg.obl.m|SourceUnit=ZB.41
 2	minya	nîya	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=ind-put.prs-3pl:A|SourceUnit=ZB.41
 3	qiřoɫû	qiřoɫ	NOUN	_	Gender=Masc	2	obj	_	Gloss=hollow.m-ez.gen|SourceUnit=ZB.41
 4	darêwe	dar	NOUN	_	Definite=Ind|Gender=Masc	2	dep	_	Gloss=tree.m-indf|SourceUnit=ZB.41|SpaceAfter=No
@@ -999,10 +999,10 @@
 1	xway	xwa	NOUN	_	Gender=Masc	5	nsubj	_	Gloss=God.m-sg.obl|SourceUnit=ZB.43
 2	pase	pase	ADV	_	_	5	advmod	_	Gloss=such|SourceUnit=ZB.43
 3	îrayeşa	îraye	NOUN	_	_	5	dep	_	Gloss=volition~3sg:NC~cop.3sg.m:S|SourceUnit=ZB.43
-4	ađê	ađê	PRON	_	Case=Nom|Number=Plur	5	dep	_	Gloss=3pl.dir|SourceUnit=ZB.43
+4	ađê	ađê	PRON	_	Case=Nom|Number=Plur|PronType=Prs	5	dep	_	Gloss=3pl.dir|SourceUnit=ZB.43
 5	mila	luwa	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=ind-go.prs-3pl:S|SourceUnit=ZB.43
 6	řeđê	řeđ	NOUN	_	Case=Nom|Number=Plur	5	dep	_	Gloss=crossing-pl.dir|SourceUnit=ZB.43
-7	baw	bî	AUX	_	Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Gloss=be.prs-3pl:S~and|SourceUnit=ZB.43|SpaceAfter=No
+7	baw	bî	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Gloss=be.prs-3pl:S~and|SourceUnit=ZB.43|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	Gloss=_|SourceUnit=ZB.43
 
 # sent_id = hwr-rec-zb-044
@@ -1078,7 +1078,7 @@
 13	çêş	çêş	PRON	_	PronType=Int	3	dep	_	Gloss=what|SourceUnit=ZB.46
 14	bo	bî	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	Gloss=be.prs.sbjv-3sg:S|SourceUnit=ZB.46|SpaceAfter=No
 15	”	”	PUNCT	_	_	3	punct	_	Gloss=_|SourceUnit=ZB.46
-16	ađê	ađê	PRON	_	Case=Nom|Number=Plur	3	dep	_	Gloss=3pl.dir|SourceUnit=ZB.46|SpaceAfter=No
+16	ađê	ađê	PRON	_	Case=Nom|Number=Plur|PronType=Prs	3	dep	_	Gloss=3pl.dir|SourceUnit=ZB.46|SpaceAfter=No
 17	,	,	PUNCT	_	_	3	punct	_	Gloss=_|SourceUnit=ZB.46
 18	wişkesaɫîn	wişkesaɫî	NOUN	_	_	3	dep	_	Gloss=drought~cop.3sg.m:S|SourceUnit=ZB.46|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	Gloss=_|SourceUnit=ZB.46
@@ -1167,7 +1167,7 @@
 # text_fa = خانواده او را با خود برگرداندند.
 1	a	a	DET	_	PronType=Dem	2	det	_	Gloss=dem.dist|SourceUnit=ZB.50
 2	wextîyekey	wext	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	Gloss=time.m-sg.obl-def.m.sg.obl|SourceUnit=ZB.50
-3	îđîçşa	îđ	PRON	_	_	4	dep	_	Gloss=3sg.m.dir~add~3pl:A|SourceUnit=ZB.50
+3	îđîçşa	îđ	PRON	_	PronType=Prs	4	dep	_	Gloss=3sg.m.dir~add~3pl:A|SourceUnit=ZB.50
 4	ardenû	arde	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	Gloss=bring.pst.ptcp.m~cop.3sg.m:O~and|SourceUnit=ZB.50|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	Gloss=_|SourceUnit=ZB.50
 
@@ -1205,7 +1205,7 @@
 # text = hinû dilû qiřoɫû nerekey şiş kîlowê çîđî zîya bo.
 # text_en = The one raised in the hollow of the tree weighed six kilos more than him (the one they took with them).
 # text_fa = کسی که در حفرهٔ درخت بزرگ شده بود شش کیلو بیشتر از آن دیگری وزن داشت.
-1	hinû	hin	PRON	_	_	9	nsubj	_	Gloss=ez.pron-ez.gen|SourceUnit=ZB.52
+1	hinû	hin	PRON	_	PronType=Dem	9	nsubj	_	Gloss=ez.pron-ez.gen|SourceUnit=ZB.52
 2	dilû	dil	NOUN	_	_	9	dep	_	Gloss=inside-ez.gen|SourceUnit=ZB.52
 3	qiřoɫû	qiřoɫ	NOUN	_	Gender=Masc	9	dep	_	Gloss=hollow.m-ez.gen|SourceUnit=ZB.52
 4	nerekey	nere	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	Gloss=oak_tree.m-def.m.sg.obl|SourceUnit=ZB.52
@@ -1256,8 +1256,8 @@
 5	bo	bî	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	Gloss=be.prs.ind-3sg:S|SourceUnit=ZB.54
 6	mê	ama	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=ind-come.prs.3sg:S|SourceUnit=ZB.54
 7	eçê	e	ADP	_	_	8	case	_	Gloss=in~here|SourceUnit=ZB.54
-8	êđ	êđ	PRON	_	_	6	obl	_	Gloss=3sg.prox.dir|SourceUnit=ZB.54
-9	çeknoşû	çekn	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	Gloss=suckle.prs-3sg:A~3sg:O~and|SourceUnit=ZB.54
+8	êđ	êđ	PRON	_	PronType=Dem	6	obl	_	Gloss=3sg.prox.dir|SourceUnit=ZB.54
+9	çeknoşû	çekn	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	Gloss=suckle.prs-3sg:A~3sg:O~and|SourceUnit=ZB.54
 10	milo	luwa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	Gloss=ind-go.prs-3sg:S|SourceUnit=ZB.54
 11	la	la	ADP	_	_	12	case	_	Gloss=to|SourceUnit=ZB.54
 12	yagekêş	yagê	NOUN	_	Definite=Def|Gender=Fem	6	obl	_	Gloss=place.f-def.f.sg~3sg:PSR|SourceUnit=ZB.54|SpaceAfter=No
@@ -1299,12 +1299,12 @@
 3	maro	ard	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=ind-bring.prs-3sg:A|SourceUnit=ZB.56
 4	milo	luwa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	Gloss=ind-go.prs-3sg:S|SourceUnit=ZB.56
 5	řûweşo	řûwe	NOUN	_	_	3	obj	_	Gloss=face~3sg:PSR~post|SourceUnit=ZB.56
-6	waçê	wat	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	Gloss=say.prs-aug.3sg:A|SourceUnit=ZB.56
+6	waçê	wat	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	Gloss=say.prs-aug.3sg:A|SourceUnit=ZB.56
 7	pêse	pêse	ADV	_	_	3	advmod	_	Gloss=like|SourceUnit=ZB.56
 8	neçîrî	neçîr	NOUN	_	Gender=Masc	3	dep	_	Gloss=prey.m-sg.obl|SourceUnit=ZB.56
-9	piřa	piřa	VERB	_	Tense=Past|VerbForm=Fin	3	conj	_	Gloss=fly.pst-3sg.m:S|SourceUnit=ZB.56|SpaceAfter=No
+9	piřa	piřa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	Gloss=fly.pst-3sg.m:S|SourceUnit=ZB.56|SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	Gloss=_|SourceUnit=ZB.56
-11	piřa	piřa	VERB	_	Tense=Past|VerbForm=Fin	3	conj	_	Gloss=fly.pst-3sg.m:S|SourceUnit=ZB.56|SpaceAfter=No
+11	piřa	piřa	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	Gloss=fly.pst-3sg.m:S|SourceUnit=ZB.56|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	Gloss=_|SourceUnit=ZB.56
 
 # sent_id = hwr-rec-zb-057
@@ -1328,7 +1328,7 @@
 5	kêştebêş	kêşa	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	2	parataxis	_	Gloss=weigh.pst.ptcp.m~be.prs-aug.sg:O~3sg:A|SourceUnit=ZB.57
 6	şiş	şiş	NUM	_	_	7	nummod	_	Gloss=six|SourceUnit=ZB.57
 7	kîlowê	kîlo	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	Gloss=kilo.m-pl.dir|SourceUnit=ZB.57
-8	ađ	ađ	PRON	_	_	2	obl	_	Gloss=3sg.m.dir|SourceUnit=ZB.57
+8	ađ	ađ	PRON	_	PronType=Prs	2	obl	_	Gloss=3sg.m.dir|SourceUnit=ZB.57
 9	çewî	ewî	ADP	_	Case=Acc|Gender=Masc|Number=Sing	8	case	_	Gloss=from~3sg.obl.m|SourceUnit=ZB.57
 10	zîyater	zîyay	ADJ	_	Degree=Cmp	2	dep	_	Gloss=increased-cmpr|SourceUnit=ZB.57
 11	bîyebê	bî	AUX	_	Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Part	2	aux	_	Gloss=be.pst.ptcp.m~be.prs-aug.3sg:S|SourceUnit=ZB.57|SpaceAfter=No
@@ -1408,7 +1408,7 @@
 12	,	,	PUNCT	_	_	7	punct	_	Gloss=_|SourceUnit=ZB.60
 13	ne	ne	CCONJ	_	_	14	cc	_	Gloss=nor|SourceUnit=ZB.60
 14	kesê	kes	NOUN	_	Definite=Ind|Gender=Masc	7	dep	_	Gloss=person.m-indf|SourceUnit=ZB.60
-15	hen	hen	VERB	_	VerbForm=Fin	7	conj	_	Gloss=exist-3sg.m:S|SourceUnit=ZB.60
+15	hen	hen	VERB	_	Mood=Ind|VerbForm=Fin	7	conj	_	Gloss=exist-3sg.m:S|SourceUnit=ZB.60
 16	be	be	ADP	_	_	18	case	_	Gloss=by|SourceUnit=ZB.60
 17	weş	weş	ADJ	_	_	18	amod	_	Gloss=good|SourceUnit=ZB.60
 18	dađiş	dađ	NOUN	_	Gender=Masc	7	obl	_	Gloss=cry.m~3sg:R|SourceUnit=ZB.60
