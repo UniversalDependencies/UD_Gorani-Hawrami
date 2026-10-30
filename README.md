@@ -29,6 +29,7 @@ The source recordings, transcription, and interlinear glossing were created by M
 * 2026-11-15 v2.19
   * Initial release in Universal Dependencies.
   * Added the spoken narrative ZB (61 sentences) as test data.
+  * Direct and oblique case are encoded with the universal values Nom and Acc.
 
 
 <pre>
