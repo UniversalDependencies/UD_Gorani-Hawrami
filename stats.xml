@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>61</sentences><tokens>520</tokens><words>520</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>61</sentences><tokens>520</tokens><words>520</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="203" /><!-- ., ,, bî, luwa, wext, a, ama, wat, berd, xwa, “, ”, ne, qiřoɫ, şewe -->
+  <forms unique="301" /><!-- ., ,, bo, a, maço, “, ”, ne, be, mê, qiřoɫû, wextîyekey, şewê, hen, milo -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">16</tag><!-- haɫî, peř, awêzan, berzepey, ezem, kem, kuç, meqboɫ, sîyaw, weş -->
+    <tag name="ADP">35</tag><!-- be, la, dewr, e, ce, pa, ser, ta, a, ewî -->
+    <tag name="ADV">20</tag><!-- pêse, fire, pase, ça, îse, ber, biřê, ca, cîyay, heɫbete -->
+    <tag name="AUX">19</tag><!-- bî, bîyê -->
+    <tag name="CCONJ">7</tag><!-- ne, welê -->
+    <tag name="DET">23</tag><!-- a, ane, îne, beʕzê, herçê, î, ew, girđ -->
+    <tag name="INTJ">1</tag><!-- beɫê -->
+    <tag name="NOUN">152</tag><!-- wext, xwa, qiřoɫ, şewe, awî, kuř, şêx, bize, jenî, saɫe -->
+    <tag name="NUM">13</tag><!-- şiş, duwê, wîs, yo, penc, sî, yuwe, ṣew -->
+    <tag name="PART">5</tag><!-- her, ter, êtir -->
+    <tag name="PRON">14</tag><!-- ađ, ađê, çêş, ew, ewê, hin, min, wê, êđ, îđ -->
+    <tag name="PROPN">7</tag><!-- ʕeladîn, germîyan, qeredax, qurʕan -->
+    <tag name="PUNCT">108</tag><!-- ., ,, “, ”, ?, !, ; -->
+    <tag name="VERB">99</tag><!-- luwa, ama, wat, berd, menn, hen, kewt, dîya, nîya, nîşt -->
+    <tag name="X">1</tag><!-- çane -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="27">
+    <feat name="Case" value="Acc" upos="ADP,ADV,NOUN,PRON,PROPN">32</feat><!-- wextîyekey, şewê, kuřekey, ađî, ewî, germîyanî, heywanekeyş, jenêç, meşeyxane, nerekey -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON">21</feat><!-- kîlowê, ađê, bizê, saɫê, zaroɫeke, zaroɫê, hardîşa, heywane, kuřekêş, kuřêş -->
+    <feat name="Definite" value="Def" upos="NOUN">24</feat><!-- wextîyekey, kuřekey, zaroɫeke, heywandare, heywanekeyş, jenekê, kuřekêş, meřekê, nerekey, nerekeyne -->
+    <feat name="Definite" value="Ind" upos="ADJ,ADV,NOUN">24</feat><!-- wextê, hewrê, şewê, bizêw, darê, darêwe, darêwew, derê, ezemêç, eşkewtêwe -->
+    <feat name="Degree" value="Cmp" upos="ADJ">3</feat><!-- zilterû, zîyater, ʕalter -->
+    <feat name="Gender" value="Fem" upos="AUX,NOUN,NUM,VERB">43</feat><!-- şewê, awê, saɫê, awî, bizê, çawre, bawşîşane, bizêw, bizêçe, bîyêne -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,NOUN,NUM,PRON,PROPN,VERB">107</feat><!-- qiřoɫû, wextîyekey, wextê, xway, kîlowê, kuřekey, menen, wextî, xwa, zaroɫeke -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">96</feat><!-- bo, maço, mê, hen, milo, bero, mila, waro, bera, miđyo -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">5</feat><!-- berî, bilmê, bizanmê, bo, xinîkno -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">50</feat><!-- kîlowê, mila, ađê, bera, bizê, mênê, saɫê, zaroɫê, ba, baw -->
+    <feat name="Number" value="Sing" upos="ADP,ADV,AUX,NOUN,PRON,PROPN,VERB">96</feat><!-- bo, maço, mê, wextîyekey, milo, bero, waro, şewê, kuřekey, miđyo -->
+    <feat name="Person" value="1" upos="VERB">3</feat><!-- bilmê, bizanmê, ginmê -->
+    <feat name="Person" value="2" upos="VERB">1</feat><!-- berî -->
+    <feat name="Person" value="3" upos="AUX,VERB">89</feat><!-- bo, maço, mê, milo, bero, mila, waro, bera, miđyo, mênê -->
+    <feat name="Polarity" value="Neg" upos="VERB">4</feat><!-- mekiryo, mekiryoyç, melama, nimênêş -->
+    <feat name="PronType" value="Dem" upos="ADP,DET,PRON">23</feat><!-- a, î, îne, ana, ane, aneşa, ew, hinû, pa, powe -->
+    <feat name="PronType" value="Ind" upos="DET">2</feat><!-- beʕzêçiş, beʕzêş -->
+    <feat name="PronType" value="Int" upos="DET,PRON">4</feat><!-- herçêşa, çêş, çêşî -->
+    <feat name="PronType" value="Neg" upos="PRON">1</feat><!-- ħîç -->
+    <feat name="PronType" value="Prs" upos="PRON">9</feat><!-- ađê, ađ, ađî, ewêç, ewî, min, wêşû, îđîçşa -->
+    <feat name="PronType" value="Tot" upos="DET">1</feat><!-- girđ -->
+    <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- wêşû -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">24</feat><!-- menen, piřa, aman, ardenû, berd, berde, berdenû, bîye, bîyebê, bîyen -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">89</feat><!-- bo, maço, mê, milo, bero, mila, waro, bera, miđyo, mênê -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">101</feat><!-- bo, maço, mê, hen, milo, bero, mila, waro, bera, miđyo -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">17</feat><!-- menen, aman, ardenû, berdenû, bîyebê, bîyen, bîyêne, bîyênêw, jinîyen, kerdebo -->
+    <feat name="Voice" value="Pass" upos="VERB">2</feat><!-- mekiryo, mekiryoyç -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="17">
+    <dep name="advmod">16</dep>
+    <dep name="amod">8</dep>
+    <dep name="aux">15</dep>
+    <dep name="case">29</dep>
+    <dep name="cc">7</dep>
+    <dep name="conj">42</dep>
+    <dep name="dep">119</dep>
+    <dep name="det">13</dep>
+    <dep name="discourse">4</dep>
+    <dep name="nsubj">18</dep>
+    <dep name="nummod">13</dep>
+    <dep name="obj">11</dep>
+    <dep name="obl">48</dep>
+    <dep name="parataxis">6</dep>
+    <dep name="punct">108</dep>
+    <dep name="root">61</dep>
+    <dep name="xcomp">2</dep>
+  </deps>
+</treebank>
